@@ -1,3 +1,5 @@
+# TODO: Add optional args (to focus on given stock)
+# Autogenerate graphs and some financial figures.
 ''' Live price of The Stock '''
 from yahoo_fin import stock_info
 live_price = stock_info.get_live_price("TSLA")
